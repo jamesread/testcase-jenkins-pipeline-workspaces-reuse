@@ -1,3 +1,5 @@
+stage "Testing"
+
 node {
 	// This will allocate a "default" workspace.
 	writeFile file: "workspace_1st_node_block.txt", text: "${pwd()}"
